@@ -10,5 +10,42 @@ docker-compose up
 
 Wait for everything to install and setup then you are ready to send out requests.
 
-#APIs
+# APIs
 
+**Create application**
+----
+  This lets you create an application that holds a name and a token.
+
+* **URL**
+
+  /applications
+  
+* **Method:**
+
+   `POST` 
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `name=[string]`
+   
+**Create application**
+----
+  This lets you create an application that holds a name and a token.
+
+* **URL**
+
+  /applications
+  
+* **Method:**
+
+   `POST` 
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `name=[string]`
+
+  
