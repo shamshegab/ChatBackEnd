@@ -13,7 +13,7 @@ Wait for everything to install and setup then you are ready to send out requests
 # APIs
 
 **Create application**
-----
+
   This lets you create an application that holds a name and a token.
 
 * **URL**
@@ -30,8 +30,24 @@ Wait for everything to install and setup then you are ready to send out requests
  
    `name=[string]`
    
+**Get application details**
+
+  This lets you get application details.
+
+* **URL**
+
+  /applications/:token
+  
+* **Method:**
+
+   `GET` 
+  
+*  **URL Params**
+
+   **Required:**
+   
 **Create application**
-----
+
   This lets you create an application that holds a name and a token.
 
 * **URL**
@@ -47,5 +63,7 @@ Wait for everything to install and setup then you are ready to send out requests
    **Required:**
  
    `name=[string]`
+ 
+   
 
   
