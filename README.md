@@ -1,5 +1,5 @@
 # ChatBackEnd
-A Ruby on Rails chat api only application. The application serves multiple endpoints (explained below). This application uses Sidekiq for queuing add chat and add messeges request in order to optimize performance. Elasticsearch is used for searching messsegs text. Also Redis is used to cache some attributes for performance. Race condition on creation of chats and messages is handled.
+A Ruby on Rails chat api only application,that serves multiple endpoints (explained below). This application uses Sidekiq for queuing add chat and add messeges requests in order to optimize performance. Elasticsearch is used for searching messsegs text. Also Redis is used to cache some attributes for performance. Race condition on creation of chats and messages is handled.
 
 # Usage
 Make sure to have docker machine set up and ready.
