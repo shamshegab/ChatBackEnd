@@ -1,5 +1,6 @@
 # ChatBackEnd
-A Ruby on Rails chat api only application. The application serves multiple endpoints (explained below).
+A Ruby on Rails chat api only application. The application serves multiple endpoints (explained below). This application uses Sidekiq for queuing add chat and add messeges request in order to optimize performance. Elasticsearch is used for searching messsegs text. Also Redis is used to cache some attributes for performance. Race condition on creation of chats and messages is handled.
+
 # Usage
 Make sure to have docker machine set up and ready.
 
@@ -8,9 +9,10 @@ Then run this command in your terminal
 docker-compose up
 ```
 
-Wait for everything to install and setup then you are ready to send out requests.
+Wait for everything to install and setup. Once rails is ready and listening to port 3000 you are ready to start sending requests.
 
 # APIs
+Just add your docker machine's ip and port 3000 before any of the urls below.
 
 **Create application**
 
