@@ -90,7 +90,7 @@ Just add your docker machine's ip and port 3000 before any of the urls below.
 
 * **URL**
 
-  /applications/:your_token/chats/
+  /applications/:token/chats/
   
 * **Method:**
 
@@ -106,7 +106,7 @@ Just add your docker machine's ip and port 3000 before any of the urls below.
 
 * **URL**
 
-  /applications/:your_token/chats/:chat_number
+  /applications/:token/chats/:chat_number
   
 * **Method:**
 
@@ -139,7 +139,7 @@ Just add your docker machine's ip and port 3000 before any of the urls below.
 
 * **URL**
 
-  /applications/:your_token/chats/:chat_number/messeges
+  /applications/:token/chats/:chat_number/messeges
   
 * **Method:**
 
