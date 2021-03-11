@@ -82,6 +82,22 @@ Wait for everything to install and setup then you are ready to send out requests
  
    `recipient=[string]`
    
+**Get user's chats**
+
+  This lets you get all chat details for this user.
+
+* **URL**
+
+  /applications/:your_token/chats/
+  
+* **Method:**
+
+   `GET` 
+  
+*  **URL Params**
+
+   **Required:**
+   
 **Get chat details**
 
   This lets you get chat details and messages in it.
