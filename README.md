@@ -46,13 +46,31 @@ Wait for everything to install and setup then you are ready to send out requests
 
    **Required:**
    
-**Create application**
+**Update application details**
 
-  This lets you create an application that holds a name and a token.
+  This lets you update application name.
 
 * **URL**
 
-  /applications
+  /applications/:token
+  
+* **Method:**
+
+   `PATCH` 
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `name=[string]`
+   
+**Create chat**
+
+  This lets you create a chat with another application.
+
+* **URL**
+
+  /applications/:your_token/chats
   
 * **Method:**
 
@@ -62,8 +80,56 @@ Wait for everything to install and setup then you are ready to send out requests
 
    **Required:**
  
-   `name=[string]`
- 
+   `recipient=[string]`
    
+**Get chat details**
+
+  This lets you get chat details and messages in it.
+
+* **URL**
+
+  /applications/:your_token/chats/:chat_number
+  
+* **Method:**
+
+   `GET` 
+  
+*  **URL Params**
+
+   **Required:**
+   
+**Send message**
+
+  This lets you send a message to specific chat.
+
+* **URL**
+
+  /applications/:your_token/chats/:chat_number/messeges
+  
+* **Method:**
+
+   `POST` 
+  
+*  **URL Params**
+
+   **Required:**
+   `msg=[string]`
+   
+**Search message**
+
+  This lets you search through a messages in a specific chat.
+
+* **URL**
+
+  /applications/:your_token/chats/:chat_number/messeges
+  
+* **Method:**
+
+   `GET` 
+  
+*  **URL Params**
+
+   **Required:**
+   `query=[string]`
 
   
