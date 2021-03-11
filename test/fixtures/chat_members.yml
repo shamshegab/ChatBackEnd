@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: chat_members
+#
+#  id             :bigint           not null, primary key
+#  chat_id        :bigint           not null
+#  chat_number    :integer
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#  application_id :integer
+#
+
+one:
+  token: MyString
+  chat_id: one
+  chat_number: 1
+
+two:
+  token: MyString
+  chat_id: two
+  chat_number: 1

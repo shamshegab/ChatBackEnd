@@ -1,0 +1,15 @@
+# == Schema Information
+#
+# Table name: chats
+#
+#  id             :bigint           not null, primary key
+#  messages_count :integer
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+one:
+  messages_count: 1
+
+two:
+  messages_count: 1

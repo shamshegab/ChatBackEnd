@@ -1,0 +1,160 @@
+continue
+app_params
+continue
+app_params
+continue
+search_result.records.records.select{|msg| msg[:chat_id] == 1}
+search_result.records.records.select( |msg| msg[:chat_id] == 1)
+search_result.records.records.find_by(id: 5)
+search_result.records.records.find(5)
+search_result.records.records
+search_result.records
+search_result
+continue
+exit
+@results.response.to_json
+@results.records.to_json
+@results.records.hits
+@results.records
+@results.records.records
+@results.records
+@results.response.hits.sort.first
+@results.response.hits.hits.first
+@results.response.hits.hits.sort.first
+@results.response.hits.sort.first
+@results.response.hits.sort
+@results.response.hits.hits
+@results.response.hits
+@results.results.results.hits
+@results.results.results
+@results.results.last
+@results.results.first
+@results.results
+@results.results.hits
+@results.results.hits.hits
+continue
+@results.results.hits.hits
+@results.results.to_json
+@results.results.total
+@results.results.hits
+@results.results
+@results.hits
+@results.fields
+@results.body
+@results
+@results.first.first
+@results.first
+continue
+@results.each do |a| a end
+@results.each do |a| a.msg end
+@results.each do |a| a.score end
+@results.each do |a| a end
+@results
+continue
+Chat.__elasticsearch__.search("*my*").to_json
+Chat.__elasticsearch__.search("my").to_json
+Chat.__elasticsearch__.search("my").count
+Chat.__elasticsearch__.search("my")
+@results.count
+continue
+Chat.__elasticsearch__.search("my").to_json
+Chat.__elasticsearch__.search("hi").to_json
+@results.count
+@results
+Chat.__elasticsearch__.import
+Chat
+@results
+continue
+    }
+      minimum_should_match: "75%"
+      slop:  100,
+      query: "silly dogs playing about",
+    my_field: {
+  match_phrase: {
+a = query: {
+Chat.__elasticsearch__.search("*my*").count
+Chat.__elasticsearch__.search("hi").to_json
+Chat.__elasticsearch__.search("hi")
+Chat.__elasticsearch__.search("hi").count
+Chat.__elasticsearch__.search("my").count
+Chat.__elasticsearch__.search("h").count
+@results.count
+Chat.__elasticsearch__.search("hi").count
+Chat.__elasticsearch__.search("hi")
+@results
+continue
+chat.messages
+chat
+@results
+continue
+@results
+@results.count
+@results
+@results.size
+continue
+@results.size
+@results.to_json
+@results
+continue
+Messege.search( params[:query] )
+@results
+continue
+@results.size
+@results.each do |res|
+@results
+continue
+chat.messages
+continue
+chat.messages
+chat
+continue
+app.chat_members.find_by(chat_id: 18).chat
+app.chat_members.find_by(chat_id: 18)
+app.chat_members.chat
+app.chat_members
+app.chats.find(18).members.find(app.id)
+app.chats.find(18).members
+app.chats.find(18)
+app.chats
+app = Application.find_by(token: params[:token])
+continue
+app.chat_members.first.chat
+app.chat_members.first
+app.chat_members.chat
+app.chat_members
+app.member_chats
+app.chats.join("chat_members")
+app.chats.join(:chat_members)
+app.chats.join(app.chat_members)
+app.chats.include(app.chat_members)
+app.chats.include(ChatMember)
+app.chats.include("ChatMember")
+app.chats.include(:chat_member)
+app.chats.include(:chat_members)
+app.chats.chat_number
+app.chats
+continue
+ChatMember.destroy_all
+continue
+ChatMember.destroy_all
+continue
+a
+a.error
+a.errors
+a = ChatMember.create(application: chat_member_1, chat: chat, chat_number: chat_member_1.chats_count.to_i)
+continue
+chat_member_1.chats_count
+continue
+Application.find(params[:token]).chats_count
+Application.find(params[:token]).size
+continue
+ChatMember.create(token: params[:token].to_s, chat_id: chat.id)
+ChatMember.create(token: params[:token], chat_id: chat.id)
+ChatMember.create(token: params[:token], chat: chat.id)
+ChatMember.create(token: params[:token], chat: chat)
+ChatMember.create(token: params[:token], chat: chat, chat_number: chat_count_1)
+continue
+next
+continue
+chat_count_1
+continue
